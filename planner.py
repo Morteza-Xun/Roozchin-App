@@ -75,11 +75,14 @@ try:
 except ImportError:
     HAS_JDATETIME = False
 
-try:
-    import pystray
-    from PIL import Image
-    HAS_PYSTRAY = True
-except ImportError:
+if sys.platform == "win32":
+    try:
+        import pystray
+        from PIL import Image
+        HAS_PYSTRAY = True
+    except ImportError:
+        HAS_PYSTRAY = False
+else:
     HAS_PYSTRAY = False
 
 
