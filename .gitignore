@@ -1,0 +1,11 @@
+dist/
+build/
+__pycache__/
+*.spec
+*.pyc
+days.json
+tasks.json
+backup.txt
+.venv/
+.roozchin_write_test
+*.exe
