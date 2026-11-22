@@ -5,6 +5,7 @@ description = "برنامه‌ریز شخصی روزچین"
 requires-python = ">=3.10"
 dependencies = [
     "flet==0.28.3",
+    "flet-cli==0.28.3",   # ← این خط اضافه شد
     "jdatetime",
     "Pillow",
 ]
