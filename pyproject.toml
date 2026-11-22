@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "برنامه‌ریز شخصی روزچین"
 requires-python = ">=3.10"
 dependencies = [
-    "flet",
+    "flet==0.28.3",
     "jdatetime",
     "Pillow",
 ]
